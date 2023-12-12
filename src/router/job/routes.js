@@ -3,6 +3,8 @@ const jobController = require("../../controller/job/controller");
 
 const router = express.Router();
 
-router.get("/getAll", jobController.getListJob);
+router.get("/premium", jobController.getListJobPremium);
+router.get("/recommendation", jobController.getListJobRecommendation);
+router.get("/jobs", jobController.getListJobs);
 
 module.exports = router;
