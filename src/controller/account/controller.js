@@ -17,7 +17,7 @@ exports.signInAccount = async (req, res) => {
 
     return res.status(200).json({ message: "Login successful.", token });
   } catch (error) {
-    console.log("Error signin account: ", error);
+    console.log("Error sign in account: ", error);
   }
 };
 

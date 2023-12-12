@@ -20,6 +20,6 @@ accountSchema.pre("save", async function (next) {
     }
 })
 
-const Account = mongoose.model("account", accountSchema);
+const Account = mongoose.model("accounts", accountSchema);
 
 module.exports = Account;
